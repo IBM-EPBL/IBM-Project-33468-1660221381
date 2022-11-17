@@ -7,7 +7,7 @@ def index():
 
 @app.route('/Demo2')
 def demo2():
-    return render_template('Demo2.html')
+    return render_template('demo2.html')
 
 @app.route('/chance')
 def chance():
